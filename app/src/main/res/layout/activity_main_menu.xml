@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        app:title="Calkulathor"
+        app:titleTextColor="#000"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <!-- Gradient text: we'll use android:textColor as white on gradient background drawable -->
+    <TextView
+        android:id="@+id/txtMadeBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by Shahwar Khan"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="18dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/gradient_text"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnOpenCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Calculator"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg" />
+
+</LinearLayout>

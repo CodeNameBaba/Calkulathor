@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/settingsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        app:title="Settings"
+        app:titleTextColor="#000"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <Button
+        android:id="@+id/btnSelectModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Calculator Model"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnSelectEnding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Ending Image / Video"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

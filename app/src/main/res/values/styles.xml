@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button style -->
+    <style name="CalcButtonStyle">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+
+<style name="CalcRow">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_marginTop">10dp</item>
+</style>
+
+<style name="CalcBtn">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">70dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:background">@drawable/btn_bg</item>
+    <item name="android:textColor">@color/btn_text</item>
+    <item name="android:textSize">22sp</item>
+    <item name="android:elevation">4dp</item>
+</style>
+
+<style name="CalcOpBtn" parent="CalcBtn">
+    <item name="android:background">@drawable/op_btn_bg</item>
+</style>
+
+<style name="CalcEqBtn" parent="CalcBtn">
+    <item name="android:background">@drawable/eq_btn_bg</item>
+</style>
+
+<style name="ClearBtn">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">70dp</item>
+    <item name="android:background">@color/clear_bg</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:layout_marginTop">20dp</item>
+</style>
+
+</resources>

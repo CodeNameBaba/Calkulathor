@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App theme colors -->
+    <color name="purple_500">#011E57</color>
+    <color name="purple_700">#0AD900</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="btn_bg">#40FFFFFF</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="operator_bg">#FF6F61</color>
+    <color name="equal_bg">#4CAF50</color>
+    <color name="clear_bg">#D32F2F</color>
+    <!-- Button colors -->
+    <color name="button_background">#292929</color>
+    <color name="button_text_color">#FFFFFF</color>
+
+    <!-- Background -->
+    <color name="app_background">#121212</color>
+
+</resources>
